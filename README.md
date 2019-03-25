@@ -8,19 +8,20 @@ $ open https://git-scm.com
 
 ## Tasks
 
-- [ ] 1. Создать публичный репозиторий с названием **lab02** и с лиценцией **MIT**
-- [ ] 2. Сгенирировать токен для доступа к сервису **GitHub** с правами **repo**
-- [ ] 3. Ознакомиться со ссылками учебного материала
-- [ ] 4. Выполнить инструкцию учебного материала
-- [ ] 5. Составить отчет и отправить ссылку личным сообщением в **Slack**
+- [x] 1. Создать публичный репозиторий с названием **lab02** и с лиценцией **MIT**
+- [x] 2. Сгенирировать токен для доступа к сервису **GitHub** с правами **repo**
+- [x] 3. Ознакомиться со ссылками учебного материала
+- [x] 4. Выполнить инструкцию учебного материала
+- [x] 5. Составить отчет и отправить ссылку личным сообщением в **Slack**
 
 ## Tutorial
 
 ```ShellSession
+'Присваеваем значение переменным'
 $ export GITHUB_USERNAME=<имя_пользователя>
 $ export GITHUB_EMAIL=<адрес_почтового_ящика>
 $ export GITHUB_TOKEN=<сгенирированный_токен>
-$ alias edit=<nano|vi|vim|subl>
+$ alias edit=nano
 ```
 
 ```ShellSession
@@ -53,6 +54,14 @@ $ git status
 $ git add README.md
 $ git commit -m"added README.md"
 $ git push origin master
+emote: Enumerating objects: 10, done.
+remote: Counting objects: 100% (10/10), done.
+remote: Compressing objects: 100% (8/8), done.
+remote: Total 72 (delta 2), reused 10 (delta 2), pack-reused 62
+Распаковка объектов: 100% (72/72), готово.
+Из https://github.com/USMAN1011111/lab02
+ * branch            master     -> FETCH_HEAD
+ * [новая ветка]     master     -> origin/master
 ```
 
 Добавить на сервисе **GitHub** в репозитории **lab02** файл **.gitignore**
