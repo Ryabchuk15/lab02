@@ -59,7 +59,7 @@ remote: Counting objects: 100% (10/10), done.
 remote: Compressing objects: 100% (8/8), done.
 remote: Total 72 (delta 2), reused 10 (delta 2), pack-reused 62
 Распаковка объектов: 100% (72/72), готово.
-Из https://github.com/USMAN1011111/lab02
+Из https://github.com/Ryabchuk15/lab02
  * branch            master     -> FETCH_HEAD
  * [новая ветка]     master     -> origin/master
 ```
